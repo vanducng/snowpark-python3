@@ -198,6 +198,7 @@ The return type is always ``Column``. The input types tell you the acceptable va
         as_timestamp_ntz
         as_timestamp_tz
         as_varchar
+        asc
         ascii
         asin
         atan
@@ -234,6 +235,7 @@ The return type is always ``Column``. The input types tell you the acceptable va
         count_distinct
         covar_pop
         covar_samp
+        create_map
         cume_dist
         current_available_roles
         current_database
@@ -249,7 +251,9 @@ The return type is always ``Column``. The input types tell you the acceptable va
         current_user
         current_version
         current_warehouse
+        date_format
         date_from_parts
+        date_part
         date_trunc
         dateadd
         datediff
@@ -259,13 +263,17 @@ The return type is always ``Column``. The input types tell you the acceptable va
         dayofyear
         degrees
         dense_rank
+        desc
         div0
         endswith
         equal_nan
         exp
+        expr
         factorial
+        first
         first_value
         floor
+        from_unixtime
         function
         get
         get_ignore_case
@@ -312,6 +320,7 @@ The return type is always ``Column``. The input types tell you the acceptable va
         lower
         lpad
         ltrim
+        map_keys
         max
         md5
         mean
@@ -319,6 +328,7 @@ The return type is always ``Column``. The input types tell you the acceptable va
         min
         minute
         mode
+        monotonically_increasing_id
         month
         monthname
         months_between
@@ -408,6 +418,7 @@ The return type is always ``Column``. The input types tell you the acceptable va
         udf
         udtf
         uniform
+        unix_timestamp
         upper
         var_pop
         var_samp
