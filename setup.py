@@ -26,7 +26,7 @@ with open(os.path.join(THIS_DIR, "CHANGELOG.md"), encoding="utf-8") as f:
     changelog = f.read()
 
 setup(
-    name="snowflake-snowpark-python",
+    name="snowflake-snowpark-python3",
     version=version,
     description="Snowflake Snowpark for Python",
     long_description=readme + "\n\n" + changelog,
