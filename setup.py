@@ -53,7 +53,7 @@ setup(
         "": "src",
     },
     package_data={
-        "snowflake.snowpark": ["LICENSE.txt"],
+        "snowflake.snowpark": ["LICENSE.txt", "py.typed"],
     },
     extras_require={
         "pandas": [
