@@ -1,4 +1,11 @@
 # Snowflake Snowpark Python API
+> **⚠ Warning**
+> This is not an official snowflake package, please use it with care as of the following potential issues:
+> * UDx/Sprocs will not work
+> * Potential confusion for other customers since this is not an official snowflake release.
+
+> The diff in this package is only to be able to install snowpark with python>=3.9 while waiting the official support from Snowflake ([SNOW-612394](https://github.com/snowflakedb/snowpark-python/issues/377).
+
 
 The Snowpark library provides intuitive APIs for querying and processing data in a data pipeline.
 Using this library, you can build applications that process data in Snowflake without having to move data to the system where your application code runs.

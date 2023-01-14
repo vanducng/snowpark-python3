@@ -22,26 +22,18 @@ version = ".".join([str(v) for v in VERSION if v is not None])
 
 with open(os.path.join(THIS_DIR, "README.md"), encoding="utf-8") as f:
     readme = f.read()
-with open(os.path.join(THIS_DIR, "CHANGELOG.md"), encoding="utf-8") as f:
-    changelog = f.read()
 
 setup(
     name="snowflake-snowpark-python3",
     version=version,
     description="Snowflake Snowpark for Python",
-    long_description=readme + "\n\n" + changelog,
+    long_description=readme,
     long_description_content_type="text/markdown",
     author="Snowflake, Inc",
     author_email="snowflake-python-libraries-dl@snowflake.com",
     license="Apache License, Version 2.0",
     keywords="Snowflake db database cloud analytics warehouse",
     url="https://www.snowflake.com/",
-    project_urls={
-        "Documentation": "https://docs.snowflake.com/en/developer-guide/snowpark/python/index.html",
-        "Source": "https://github.com/snowflakedb/snowpark-python",
-        "Issues": "https://github.com/snowflakedb/snowpark-python/issues",
-        "Changelog": "https://github.com/snowflakedb/snowpark-python/blob/main/CHANGELOG.md",
-    },
     python_requires=">=3.8",
     install_requires=[
         "setuptools>=40.6.0",
